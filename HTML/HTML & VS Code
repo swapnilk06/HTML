@@ -1,0 +1,47 @@
+----------------- HTML & VS Code Simple & Basic Introduction ------------------
+
+Whats HTML ?
+- HTML gives your website structure or provide symentics
+
+HTML - Simple language
+
+All Programming languages are popular bcz - all have different web frameworks
+E.g. Javascript --> Web framework - Express, React, Angular, Vue
+
+Steps to start HTML -
+1] Create folder --> html
+2] Drag & drop in --> vs code
+3] Create file --> index.html
+
+Shortcut In VS code - 
+! + tab ==> Auto make Boiler plate code 
+
+Q.- How did boiler plate code come ? or Why did we create the index. file?
+=>
+- 1st popular S/W or web server - Apache2  --> Mostly the Linux system you see runs only Apache S/W
+- Behind the scene of Cpanel, hostinger, godaddy, bigrock etc. Apache s/w run.
+- This s/w serve your web pages.
+  - In these s/w default configiration you not mention any file this s/w directly serve this index.html file these are common index.js, index.html..
+
+Industry base html write through --> Emmet documentation
+
+Emmet documentation - we write fast pace code.
+*NOTE - Working of Emmet Abberivation can show through FOLDER opening not for file only(onpen in VScode)
+     1] - Emmet have require folder or structure for serve.
+	   2] - file name have index.html & save after it.
+
+Shortcut In VS code - 
+! + tab + tab ==> directly goes into document in html code
+   
+Working of index.html -
+- File (index.html) - 1st this file load into memory then after it serve in browser(chrome).
+- Live server (extension) - this extension used for AUTO reload file into memory & it serve in browser.
+
+Q. - Ok, it is also important to know, how they html work auto reload through live server?
+=>	
+  - Just Right Click & open page source code
+	- We see extra script can load they inject from live server.
+	- Is there any program which is telling the memory again and again that if there are any changes in the file, then reload it.
+        		OR
+  - Live server preview (2nd extension) - Ctrl + Shift + p 
+    - problem with this extension we can't fetch title, on right click don't go to page source & browser functionality like inspect element not open.
