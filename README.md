@@ -1,2 +1,2 @@
 # Chai-Code-Web-Dev
-HTML, Css &amp; Javascript
+Html, Css & Javascript
