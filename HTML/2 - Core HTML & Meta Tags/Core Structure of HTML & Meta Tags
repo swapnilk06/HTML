@@ -1,0 +1,74 @@
+HTML is markup language - but, you can remember its as Sentactical language.
+- Simple & declarative language or structre language.
+- HTML lang make your website structre then its called structre lang.
+
+Q. - Why HTML so popular ? 
+=> HTML have large support in browser.
+     
+HTML Heading -
+<h1> In h1 tag big heading </h1>
+<h2> h2 for smaller heading than h1 </h2> 
+*NOTE :-> But these is not correct only that h1 bigger & h2 smaller in header.
+
+All tags in HTML have takes Importance
+  - <h1>---Is a Heading---</h1> ==>  h1 means its CORE PART/Most important part of page includes all heading of website.
+  - <h2>---Is a Subheading---</h2> ==> h2 is a second importance than h1.
+
+All tags of HTML have different importance & these imporatance makes your (website)page structure.
+  E.g. -
+  <address></addresss> tag -> google know automatically its get address from structure & list it. without user extra effort for list it.
+
+Q. - What is important things in HTML & what are known it?
+=>
+   ! + tab --> Basic structre
+
+   E.g. -
+      html tag ---> <!DOCTYPE html>
+      - All html tags are in Case Insensitive E.g. HEAD or head similar
+   HTML -
+      1] --> <head></head>
+      2] --> <body></body>
+
+On web page, all whole page is html body part as a visual accpect.
+2 parts are visuals in Head -
+  1] Title
+	2] Favicon
+
+Meta Tags -
+Q. - What is meta tags ?
+=>
+   E.g. - 
+   <meta charset="UTF-8">
+   - Info about your document this can't write in page but, some server, botcrawl inform through it.
+   - On page "smile" support we use --> <meta charset="UTF-16">
+
+   name="viewport" content="width=device-width" 
+   - After render page by default what zoom level show on page?
+   
+meta tags(elements) - RESOURCE
+Google - meta tags in html Google
+
+Google recommands on "developer.google" ==> all tags on this page.
+https://developers.google.com/search/docs
+
+In vs code -
+meta: ==> emmet help in VS code for meta tags
+
+*NOTE :- HTML - No show any error
+
+E.g.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-16">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+</head>
+<body>
+      <h1>heading</h1>
+      <footer>
+            <address></address>
+      </footer>
+</body>
+</html>
