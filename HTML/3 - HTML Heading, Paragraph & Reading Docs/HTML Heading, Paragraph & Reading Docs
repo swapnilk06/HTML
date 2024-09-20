@@ -1,0 +1,156 @@
+- HTML have not case sensitive
+E.g. - <HTML> same as </html>
+
+
+Heading - Easy simple tags (no extra efforts)
+HTML Heading includes Element whole "<h1> to </h1>" 
+ 
+ - HTML element => <h1>heading</h1>
+ - Tag name => <h1>.....</h1>
+   
+- Tag have Properties or Attributes => title="heading one"
+  E.g. -
+   <h1 title="heading one">heading</h1>  <== all includes are html elements (<h1....to..../h1>
+                    title="heading one"  <== Properties or Attributes
+
+*NOTE :- tag close In html (</h1>) its not create problem, but in react or other lang create PROBLEM
+
+- Nested heading - 
+<h2>Heading <span>Two</span></h2> <== span is also tag 
+
+Tags or headings are so many attributes -
+- Anchor tag
+  E.g. <a href=""></a> -> by default attribute href
+	     - href compulsory values when not filed then not go any site
+  Emmet shortcut --> a:
+  E.g. -
+  <a href="http://" target="" rel="noopener noreferrer"></a>
+
+*NOTE :- Suggestion in Vs code in target property --> Ctr + Space 
+
+-------- DOCUMENTATION -------------
+Meanings of any tags -> search on web E.g. --> "a tag mdn"
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
+------------------------------------
+
+- Every tag or every element having some compulsory attribute or not compulsory 
+   - not compulsory attribute <title> tag - we write or not any difference
+	 - compulsory attribute <a> tag - for working we write compulsory attribute
+	
+*NOTE :- Intersting thing
+  - after write <h1 title="heading one">heading</h1>
+  - & hover mouse on heading then hover show heading one
+  - modify all tooltips through or CSS through
+
+E.g.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>HTML tutorial</title>
+</head>
+<body>
+      <!-- Element includes <h1> to </h1> -->
+      <h1 title="heading one">Heading</h1>
+      <h2>Heading <span>Two</span> </h2>
+      <a href="#">Google</a>
+      <a href="http://" target="" rel="noopener noreferrer"></a>
+</body>
+</html>
+
+
+Shortcut for - 
+Duplicate values -->
+  Alt + Shift + down key
+Multi changes at time -->
+  Click + Alt + Click
+
+Shortcut for Paragraph -
+Emmet use Text through Paragraph ---> <p>lorem20</p>
+
+Q. - How to work paragraph tag?
+=>
+  Paragraphs are block-level elements, and notably will automatically close if another block-level element is parsed before the closing </p> tag.
+
+Break line -
+Break line best practice for JS (ideal in JS) ==> <br />
+
+Horizontal line --> <hr>
+
+Q. How to solve Classic Poem Problem ?
+=>
+  In paragraph classic Poem problem - 
+  Below solution is not solve poem problem
+  E.g. -
+  <p>
+            line 1 <br>
+            line 2 <br>
+            <br>
+            line 3
+            lin3 4
+ </p>
+
+  pre tag solve poem problem -
+  E.g. -
+  <pre>
+            line 1
+            line 2
+          
+            line 3
+            lin3 4
+  </pre>
+
+pre tag -
+ - browser default formating
+ E.g. in Js concept -
+   <pre>console.log("hello")</pre>
+
+E.g.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Heading</title>
+</head>
+<body>
+      <h1>Heading one</h1> <!-- duplicate value alt+shift+downkey -->
+      <h2>Heading two</h2> <!-- duplicate value click+alt+click -->
+      <h3>Heading three</h3>
+      <h4>Heading four</h4>
+      <h5>Heading five</h5>
+      <h6>Heading six</h6>
+
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, laborum sequi adipisci 
+            <hr>
+            <br />
+            impedit dignissimos veniam sapiente recusandae quidem magnam sunt.</p>
+
+            <!-- Not show as a poem 
+            <p>
+                  line 1 <br>
+                  line 2 <br>
+                  <br>
+                  line 3
+                  lin3 4
+            </p>
+            -->
+
+            <!-- Use pre tag solve poem problem -->
+            <pre>
+                  line 1
+                  line 2
+                
+                  line 3
+                  lin3 4
+            </pre>
+      <hr>
+      <br />
+      
+      <pre>console.log("hello")</pre>
+
+</body>
+</html>
