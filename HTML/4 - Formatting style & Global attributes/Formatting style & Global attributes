@@ -1,0 +1,151 @@
+--------------- 4th - Formatting style & Global attributes ------------------------
+
+Comment -
+
+Shortcode Emmet Comment -
+  - Cursor at end of line --> Ctrl + /
+  - Ctrl + / ==> Comment or uncomment
+	- Multiple comment select all --> Ctrl + / 
+
+Problem with comment -
+- Comment any line not show in browser but, it show in source code after formatting.
+- these is information leak some time.
+
+Bold tag -
+ - More use in old time, It not for impactful content (only used for bold)
+ - bold tag not work in header <h3> all readey its Bold in default
+ E.g. -
+  <!-- <h3> This is <b>Important</b></h3> -->
+
+Strong tag -
+ - represents strong importance point to 
+ - Convert it into paragraph
+ E,g, -
+  <p> This is <strong>important</strong> </p>
+
+Italic tag -
+ E.g. -
+    <p> This is <i>Important</i> </p>
+    
+Emphasic tag -
+ E.g. -
+    <p> This is <em>Important</em> </p>
+
+
+Shortcut Emmet -
+ - aliase bullet 4 points structure --> ul>li*4
+
+
+sub tag - subscript
+----------------------------
+Learn from documentation mdn --> https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub
+----------------------------
+ E.g. -
+  <p> H <sub>2</sub>0 </p>
+ 
+sup tag - superscript
+ E.g. -
+  <p>a<sup>2</sup> +b<sup>2</sup>=c<sup>2</sup></p>
+
+del tag - delete
+ E.g. -
+	<p>There is <del>not</del> important</p>
+	
+mark tag -
+ E.g. -
+  <p>New branded <mark>product</mark> launch comming soon</p>
+  
+ 
+E.g. 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Formatting</title>
+</head>
+<body>
+      <!-- <h1>Formatting</h1> -->
+      <h1>Formatting</h1>
+      <h1>Formatting</h1>
+
+      <!-- Bold in html head vs paragraph -->
+      <h3> this is <b>important</b> </h3>
+
+      <hr>
+      <!-- strong tag vs bold tag -->
+      <p> this is <b>important</b> </p>
+      <p> this is <strong>important</strong> </p>
+
+      <hr>
+      <!-- strong tag vs bold tag -->
+      <p>this is <i>important</i> </p>
+      <p>this is <em>important</em> </p>
+
+      <hr />
+      <hr />
+      <p><strong>Assignment</strong> Task - </p>
+      <!-- aliase 4 bullet points ==> ul>li*4 -->
+      <ul>
+            <li>b; string</li>
+            <li>i; em</li>
+            <li>small</li>
+            <li>sub, sup</li>
+            <li>del, mark</li>
+      </ul>
+      
+      <hr />
+      <!-- small tag subscript -->
+      <p> I am a <small>very small</small> boy</p>
+
+      <hr />
+      <!-- sub tag subscript -->
+      <p> H <sub>2</sub> 0 </p>
+      <!-- sup tag superscript -->
+      <p>a<sup>2</sup> +b<sup>2</sup>=c<sup>2</sup></p>
+
+      <hr />
+      <!-- del tag delete -->
+      <p>There is <del>not</del> important</p>
+      <!-- mark tag -->
+      <p>New branded <mark>product</mark> launch comming soon</p>
+      <hr />
+
+
+</body>
+</html>
+
+
+
+Style Attribute -
+
+- Production level & Readable format writing style in html
+- Gives no.1 priority for written Readable code
+E.g. -
+<!-- Style attribute in multiple properties -->
+      <h3 style="
+      text-align:center;
+      background-color: #43A322;
+      " >This tag needs some styling</h3>
+
+-------------------------------
+documentation --> style tag mdn
+https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/style
+-------------------------------
+
+E.g. 
+
+<div style="background: #ffe7e8; border: 2px solid #e66465">
+  <p style="margin: 15px; line-height: 1.5; text-align: center">
+    Well, I am the slime from your video<br />
+    Oozin' along on your livin' room floor.
+  </p>
+</div>
+
+----------------------------
+List of Global attributes -
+documentation --> https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes
+---------------------------
+
+
