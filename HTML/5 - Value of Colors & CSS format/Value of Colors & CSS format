@@ -1,0 +1,170 @@
+
+Color format -
+
+E.g. - Hex value 
+     #43A322
+
+Q. - Why directly not write color name i.e. blue or other color name?
+==>
+  - Problem with blue write directly place of hex value interpretation in Mozilla firefox are work different & Chrome have different.
+  - Its professional way to write color in hex value.
+
+For view any HSL values & RGB values of color -
+  - Hover on hex value color & click on hex value  
+
+hsl ==> Hue, Saturation, and Light.
+    E.g. hsl(178, 86%, 41%);
+	
+rgba ==> Red, Green, Blue, alpha channel
+    E.g. rgb(15, 196, 190, .5);
+
+
+Different ways of introducing style -
+1] Head tag
+2] Inline tag inject style through Attribute
+3] Style in seperate file ( it link in main file header)
+
+*NOTE :-
+This in line type styling useful when, conditionally time rendering. 
+- i.e. when user can login its show green button, when its not login show red button 
+- This time In line style are more helpful.
+
+E.g. -
+<h3 style="
+      text-align:center;
+      background-color: rgba(15, 196, 190, .5);
+      color: blueviolet;
+</h3>
+
+*NOTE :- Inline tag most used for React / Angular learning.
+
+
+Quotes OR Quoatation - (try to learn from documentation)
+
+Problem with <q> tag -
+ - Less time use of <q> , because its automatically inject block quotes
+ E.g. -
+    <q>
+	   this is my quotes
+	</q>
+ 
+ ==> "this is my quotes"
+ 
+ - Best way to inject quote through CSS. i.e. CSS property called before & after 
+ - Inject quotes better through CSS.
+
+abbrevation tag -
+E.g. -
+    <abbr title="Hyper Text Markup language">HTML</abbr>
+
+Assignment :- Search in documentation like - Address html mdn
+
+addresss tag -
+- This element only includes the global attributes.
+E.g. -
+    <address>
+      <a href="mailto:jim@example.com">jim@example.com</a><br />
+      <a href="tel:+14155550132">+1 (415) 555‑0132</a>
+    </address> 
+	
+cite tag - The Citation element
+- <cite> element in italics by default. To avoid this, apply the CSS font-style property to the <cite> element.
+E.g. -
+    <p>More information can be found in <cite>[ISO-0000]</cite>.</p>
+
+bdo tag - Bidirectional Text Override element 
+- The <bdo> html element overrides the current directionality of text.
+E.g. -
+    <bdo dir="rtl">Swapnil</bdo>
+ 
+ 
+ E.g. -
+ 
+ 
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <style>
+            body{
+                  color: aqua;
+            }
+      </style>
+      <link rel="stylesheet" href="style.css">
+      <title>Formatting</title>
+</head>
+<body>
+      <!-- <h1>Formatting</h1> -->
+      <h1>Formatting</h1>
+      <h1>Formatting</h1>
+
+      <!-- Bold in html head vs paragraph -->
+      <h3> this is <b>important</b> </h3>
+
+      <hr>
+      <!-- strong tag vs bold tag -->
+      <p> this is <b>important</b> </p>
+      <p> this is <strong>important</strong> </p>
+
+      <hr>
+      <!-- strong tag vs bold tag -->
+      <p>this is <i>important</i> </p>
+      <p>this is <em>important</em> </p>
+
+      <hr />
+      <hr />
+      <p><strong>Assignment</strong> Task - </p>
+      <!-- aliase 4 bullet points ==> ul>li*4 -->
+      <ul>
+            <li>b; string</li>
+            <li>i; em</li>
+            <li>small</li>
+            <li>sub, sup</li>
+            <li>del, mark</li>
+      </ul>
+
+
+      <!-- sub tag subscript -->
+      <p> H <sub>2</sub> 0 </p>
+      <!-- sup tag superscript -->
+      <p>a<sup>2</sup> +b<sup>2</sup>=c<sup>2</sup></p>
+
+      <!-- Style attribute in multiple properties -->
+      <h3 style="
+      text-align:center;
+      background-color: rgba(15, 196, 190, .5);
+      color: blueviolet;
+
+      " >This tag needs some styling</h3>
+
+      <p>
+            <q>
+                  this is my quote
+            </q>
+
+            <abbr title="Hyper Text Markup language">HTML</abbr>
+      </p>
+
+      <hr /><br>
+      <p><strong>Assignment</strong> Task - search in documentation i.e. address html mdn</p>
+      <ul>
+            <li>address tag</li>
+            <li>cite tag</li>
+            <li>bdo tag</li>
+      </ul>
+
+      <p>Contact the author of this page:</p>
+
+      <address>
+      <a href="mailto:jim@example.com">jim@example.com</a><br />
+      <a href="tel:+14155550132">+1 (415) 555‑0132</a>
+      </address>
+
+      <p>More information can be found in <cite>[ISO-0000]</cite>.</p>
+
+      <bdo dir="rtl">Swapnil</bdo>
+
+</body>
+</html>
+ 
