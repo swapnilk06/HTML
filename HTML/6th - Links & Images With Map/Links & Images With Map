@@ -1,0 +1,197 @@
+
+Shortcut anchor <a> tag - a: --> shows details of tags
+E.g. - 
+     a:tel
+     - tel mostly work when user open website in browser & tap in link tel, then browser automatically call API (keypad API) automatically show no in your mobile.
+	   - then increase usability of website.
+	 
+     a:mail
+	   - you can try which id for mail, directly open broswer by default mail & "to" is automatically filled out.
+	
+	   a:link
+	   - E.g. - <a href="http://google.com"></a>
+       - increase user usability i.e. user dont write without http or https.
+	 
+target in <a> tag -
+E.g. - _blank - open all in new tab
+     <a target="_blank" href="http://google.com"></a>
+ 
+
+Problem coming with - all other suggestion target tags -
+	i.e. target="_top"
+ 	     target="_parent" 
+		   target="_self"
+    
+
+Difference between _self, _top, and _parent in the anchor tag target attribute -
+ - we don't know because, in currently we can code through style iframes or frame data are allmost NOT any uses.
+
+----------------------------------
+Stack overflow documentation -
+https://stackoverflow.com/questions/18470097/difference-between-self-top-and-parent-in-the-anchor-tag-target-attribute
+----------------------------------
+	
+
+id's or classes -
+
+Shortcut for paragraph 400 words --> p>lorem400
+
+Q. - Task - Link btn to go on click to other lorem20
+
+E.g. -
+   <a href="#section2">Scroll</a>
+   
+   --> give id to target section2
+       i.e. id="section2"
+
+E.g. -
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Link tag</title>
+      <style>
+            body{
+                  background-color: #414141;
+                  color: #FFFFFF;
+            }
+      </style>
+</head>
+<body>
+      <a target="_blank" href="http://google.com">Google</a>
+      <a href="#section2">Scroll</a>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad veniam earum voluptatibus, sit hic ducimus impedit suscipit beatae nulla adipisci at cupiditate asperiores. Voluptatibus voluptatem, nemo quos dolor magni culpa aliquid veniam facere ipsum minus, in laudantium. Assumenda totam ut, sed eos impedit natus, neque quae eius asperiores facere culpa excepturi unde fuga velit iste! Dolorum minima atque ea quasi eos commodi iusto praesentium. Aliquid repellendus praesentium neque iure eos labore tenetur, voluptates error rerum quam sint quas fugit ea illum dolor quos? Perferendis nisi exercitationem ipsam incidunt eligendi ipsum, corporis delectus libero laborum non veritatis harum nihil quisquam inventore, est a iure perspiciatis, doloribus molestias maxime. Iure sint esse aspernatur necessitatibus iste saepe officia unde. Ab consequuntur assumenda dolorem nihil aliquid earum eaque veritatis, commodi nulla illum odit eius? Accusamus exercitationem voluptas maxime, nemo recusandae atque numquam quia, quos nostrum impedit doloremque iusto excepturi officia omnis vel minima in et. Quas repellat amet dolore, praesentium voluptatum nisi perferendis ipsa incidunt id unde esse dolorum laudantium fugiat porro quaerat culpa. Voluptatibus non libero natus saepe, beatae, minima autem quos delectus corrupti vitae odio commodi magnam, corporis error eos laborum fuga sed ut voluptatem. Eum rem, quo obcaecati esse nulla facere cumque quaerat reprehenderit dolore perferendis cum natus laborum recusandae at consequatur. Aperiam libero laudantium optio, debitis nisi praesentium nemo vero expedita quisquam at, fuga non neque? Eum, dolor nihil pariatur error nisi corporis! Commodi, aliquam iusto possimus modi earum praesentium magni corporis officiis id minus? Obcaecati nesciunt laudantium, aut, fugiat esse aperiam libero ipsum fuga ea temporibus nostrum impedit praesentium, odio debitis sed. Praesentium impedit a blanditiis sit voluptatum asperiores in, distinctio dolore, dicta, quam quia doloribus. Labore laudantium nam nulla non, ab reiciendis sit porro suscipit consequuntur eos beatae aperiam aspernatur illo ipsam at sint mollitia distinctio ratione saepe eum! Ipsam pariatur atque ducimus qui, quas quia accusantium laudantium ullam tenetur aperiam corporis facere, illo quisquam eius laborum ipsum incidunt culpa ex doloribus fugiat nihil, beatae assumenda totam. Maiores eius hic nulla optio, perspiciatis dolorum libero deleniti corrupti magnam ipsam illum consequatur vel fugit, necessitatibus cumque adipisci dolorem? Ipsa ex, tenetur mollitia quos tempore earum asperiores cum cumque, nisi nostrum voluptate unde necessitatibus quaerat animi ad autem rem ut sit assumenda, adipisci tempora aperiam praesentium. Minus laboriosam deleniti dolorem aliquid neque ut magni libero velit excepturi at optio placeat quo eius facilis, doloremque suscipit consequuntur sequi obcaecati delectus soluta!</p>
+      <p id="section2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quibusdam facere ipsa dolores, aspernatur porro nisi fuga sunt ipsam non, suscipit est assumenda soluta perspiciatis sequi similique recusandae dicta? Quibusdam nulla aliquam inventore, fugit iste similique enim illum, quos temporibus explicabo exercitationem. Sapiente possimus, consequatur quos dolore enim impedit nostrum totam, error eligendi omnis rem dicta. Necessitatibus laborum omnis provident nesciunt accusantium consequatur ut. Sunt saepe, iusto officia error molestias ullam mollitia, eligendi consequuntur repellendus praesentium inventore fuga illo animi atque laborum rerum adipisci ducimus harum ea consectetur in. Numquam quidem sequi illum modi harum recusandae pariatur! Tenetur adipisci, consequatur ipsam dignissimos in sit atque fugiat voluptas illo tempora fugit laborum numquam dolores quas impedit reprehenderit dolorum neque vitae earum nisi ducimus animi odio. Est repellendus hic culpa fugiat voluptatem iste aperiam saepe. Quisquam distinctio porro mollitia voluptates ex explicabo beatae ab, consectetur dicta? Illum, sapiente saepe consectetur odio voluptatem, quibusdam numquam beatae quidem neque nisi sit impedit provident sint incidunt nemo! Temporibus inventore voluptatibus ratione qui consectetur debitis! Nesciunt quaerat necessitatibus placeat corporis possimus accusamus molestiae minus soluta vel debitis? Dolore numquam est laboriosam quisquam magnam corrupti debitis nulla reprehenderit molestiae iste ullam ab, accusantium a tenetur, adipisci magni maxime voluptatem voluptatum id, provident perferendis quidem corporis laudantium? Similique impedit aut quidem repudiandae explicabo dicta libero saepe, facilis assumenda possimus dolores ullam id voluptate sed vel blanditiis quis quia minima! Molestias adipisci quasi facere ab praesentium? Facere tenetur reiciendis corporis consequatur ut vitae quibusdam enim, aut, aspernatur veniam voluptatum! Possimus, laboriosam pariatur. Consequuntur incidunt illo quos quas voluptates. Dolores ex ullam, nisi sint voluptate quaerat porro commodi eligendi facere voluptatibus dignissimos debitis nobis, laborum similique! Qui debitis rerum autem enim consequatur, blanditiis possimus, consectetur ratione similique eveniet illum molestias asperiores obcaecati nesciunt ab minus distinctio explicabo rem cupiditate nam.</p>
+      <a href="_self, _top, and _parent in the anchor tag target attribute">Link to read</a>
+</body>
+</html>
+
+
+
+Images - 
+
+image attributes -
+    - img:s
+    - img:sizes
+    - img:srcset
+    - img:z
+
+
+Q. - Why write alt text?
+==> when ever image can't load.
+
+Copy any onlibe image address - 
+
+pixels --> select img --> copy img address --> load img 
+
+
+img properties -
+   - width & height
+
+*NOTE :- without knowing image height, width ratio - don't give any height property to img
+
+Shortcut Duplicate content --> Shift + alt + downkey
+
+Image load from local resource -
+  - Abosolte path
+  - Relative path
+  
+  E.g. -
+       <img src="https://images.pexels.com/photos/340152/pexels-photo-340152.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="400px" alt="No Image">
+       <img src="./Demo_logo.png" width="100px" alt="No Image">
+
+
+Shortcuts -->
+./ ==> Current folder
+..? ==> go 1 folder background
+
+
+*NOTE :- your website go to server spaces are very dangerous & problamatic.
+       - for production base all images done with single name or spaces relapace with dashes or underscore. 
+
+
+picture element - 
+
+images VS picture
+
+Q. - why we use picture with source tag & img tag under picture element? 
+=> 
+   we use picture tag then compulsory used source tag
+   - source tag has self close element
+   - also used compulsory img tag
+   
+
+Q. - Why can't write img outside of picture element & why required to write source & srcset.
+=> 
+   - when we load multiple images depends on mobile OR desktop view ratio.
+   - Before JS detect which images open in moible & which open in desktop, this work also done through HTML & CSS. (write media attribute before srcset)
+
+Q. - Difference between images VS picture element
+=>
+  - picture element depends on what try you with imgge - it use for image show on mobile, tab or desktop devices. 
+  - by default load src img when you don't give any device size.
+  E.g. -
+       <img src="./Demo_logo.png" alt="">  
+
+E.g. -
+
+<picture>
+    <source media="(min-width: 650px)" srcset="/. logo.png" />
+    <source media="(min-width: 460px)" srcset="/. logo.png" />
+    <img src="./Demo_logo.png" alt="">
+</picture>   
+   
+   
+-------- DOCUMENTATION -------------
+picture -> search on web E.g. --> "picture html mdn"
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture
+------------------------------------
+
+
+Image map generator -
+
+E.g. -
+     <img src="Demo_logo.png" usemap="#image-map">
+          <map name="image-map">
+          <area target="" alt="" title="" href="" coords="146,127,257,221" shape="rect">
+          <area target="" alt="" title="" href="" coords="123,326,267,355" shape="rect">
+          </map>
+	  
+
+Q. - what is benfits of image map code?
+=> 
+   - code is not visible & its also for your target area.
+   - give images co-ordinates through msg what can you do when, click on image target part.
+
+
+Simple Javascript for image code working -
+  Onclick function using Javascript -> calling one function & two function 
+
+
+E.g. -
+
+<!-- An image map generator -->
+
+      <img src="Demo_logo.png" usemap="#image-map">
+
+      <map name="image-map">
+      <area onclick="one()" target="" alt="" title="" href="" coords="146,127,257,221" shape="rect">
+      <area onclick="two()" target="" alt="" title="" href="" coords="123,326,267,355" shape="rect">
+      </map>
+
+      <script>
+            function one(){
+                  alert("You clicked on one")
+            }
+
+            function two(){
+                  alert("You clicked on two")
+            }
+      </script>
+
+
+Important - create map of any image & create its co-ordinates
+
+
