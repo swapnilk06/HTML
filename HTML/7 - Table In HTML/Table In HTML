@@ -1,0 +1,224 @@
+
+Tables -
+
+Shortcuts - Fast code  --> html:5
+                       --> ! + tab
+					   
+Shortcuts - Create table with emmet
+
+search --> emmet table shortcut --> table 
+
+---------------------
+Web Search 
+https://docs.emmet.io/cheat-sheet/
+---------------------
+
+*NOTE :- Some shortcut of these are working some are not work.
+
+
+table row some shortcuts -
+
+*NOTE :- Todays more get challeges for convert tabular structure data to mobile devices.
+       - Human brain are trained to view table from LEFT to RIGHT.
+
+tr = table row
+th = table heading
+td = table data
+
+Shortcuts - Create table with heading --> table>tr>th*3
+
+E.g. -	But Output is not table perfect 
+    <table>
+        <tr>
+            <th>Country</th>
+            <th>Country CODE</th>
+            <th>Email</th>
+        </tr>
+    </table>
+
+
+*NOTE :- Editors made minimize your code written practice & bugs.
+
+Shortcuts - Create table data -->tr>td*3
+
+E.g. - 
+    <tr>
+        <td>India</td>
+        <td>In</td>
+        <td>india@google.com</td>
+    </tr>
+	
+
+Shortcuts - multiple copies any code --> alt+shift+down arrow
+
+E.g. - Table output can do better using CSS
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Table</title>
+      <style>
+            table {
+                  width: 100%;
+                  border-collapse: collapse; <!-- table have self border  -->
+                  text-align: center;
+            }
+
+            td, th {
+                  border: 1px solid black;
+                  padding: 10px;
+            }
+
+            tr:nth-child(even) {
+                  background-color: #c9c9c9;
+            }
+
+
+      </style>
+</head>
+<body>
+      <table>
+            <tr>
+                  <th>Country</th>
+                  <th>Country CODE</th>
+                  <th>Email</th>
+            </tr>
+            <tr>
+                  <td>India</td>
+                  <td>In</td>
+                  <td>india@google.com</td>
+            </tr>
+            <tr>
+                  <td>United States of America</td>
+                  <td>USA</td>
+                  <td>usa@google.com</td>
+            </tr>
+            <tr>
+                  <td>Japan</td>
+                  <td>JP</td>
+                  <td>jp@google.com</td>
+            </tr>
+            <tr>
+                  <td>China</td>
+                  <td>CN</td>
+                  <td>cn@google.com</td>
+            </tr>
+            
+      </table>
+</body>
+</html>
+
+
+
+*NOTE :- Under Border actually table part majorly enhance through CSS.
+
+cell   ==> India
+row    ==> Horizontal all LEFT to RIGHT i.e. India.. to.. india@google.com
+column ==> Vertical TOP to BOTTOM i.e. Country.. to.. China
+
+
+Top to bottom heading code - 
+
+E.g. -
+
+<table>
+            <tr>
+                  <th>Country</th>
+                  <td>India</td>
+                  <td>Japan</td>
+            </tr>
+            <tr>
+                  <th>CODE</th>
+                  <td>IN</td>
+                  <td>JP</td>
+            </tr>
+      </table>
+
+
+
+
+Detail adjustment of column - colspan 
+
+E.g. - colspan gives any space than other
+
+<table>
+            <tr>
+                  <th colspan="3">Country</th>
+                  <td>India</td>
+                  <td>Japan</td>
+            </tr>
+            <tr>
+                  <th>CODE</th>
+                  <td>IN</td>
+                  <td>JP</td>
+            </tr>
+      </table>
+
+
+Detail adjustment of row - rowspan 
+
+search --> table mdn html 
+
+---------------------
+DOCUMENTATION
+https://docs.emmet.io/cheat-sheet/
+---------------------
+
+
+col group - Its not best way of implementation (browser also drop its support)
+
+<colgroup>
+        <col span="2" style="background-color: cadetblue;" />
+</colgroup>
+
+
+Assignment - tfoot
+
+<tfoot>: The Table Foot element
+
+  - The <tfoot> HTML element encapsulates a set of table rows (<tr> elements), indicating that they comprise the foot of a table with information about the table's columns. 
+  - This is usually a summary of the columns, e.g., a sum of the given numbers in a column.
+  
+E.g. -
+
+<table style="border-collapse: collapse; 
+      border: 2px solid rgb(140 140 140);
+      font-family: sans-serif;
+      font-size: 0.8rem;
+      letter-spacing: 1px;" >
+      
+      <caption style="caption-side: bottom;
+            padding: 10px;">
+            Council budget (in £) 2018
+      </caption>
+      <thead style="background-color: #2c5e77;
+            color: #fff;">
+            <tr>
+                  <th scope="col">Items</th>
+                  <th scope="col">Expenditure</th>
+            </tr>
+      </thead>
+            
+      <tbody style="background-color: #e4f0f5;">
+            <tr>
+                  <th scope="row">Donuts</th>
+                  <td>3,000</td>
+                  </tr>
+            <tr>
+                  <th scope="row">Stationery</th>
+                  <td>18,000</td>
+            </tr>
+      </tbody>
+
+      <tfoot style="background-color: #2c5e77;
+            color: #fff;">
+            <tr>
+                  <th scope="row">Totals</th>
+                  <td>21,000</td>
+            </tr>
+      </tfoot>      
+      </table>
+
