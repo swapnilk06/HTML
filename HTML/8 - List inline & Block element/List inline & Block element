@@ -1,0 +1,111 @@
+
+List -
+3 types list is present - 1 can only used 90%
+
+Unorder list -
+
+Shortcut - Unorder list --> ul>li*5
+                        
+E.g. - unordered list with 1 --> ul>li*5{1}
+<h2>Unordered List</h2>
+      <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+      </ul>
+
+- all others things of lists are manipulate through CSS.
+
+Q. - What place of list can used?
+=>
+   - Navigation bars
+   - Footers
+   
+ 
+Order list -
+  - browser knows its ordered list & its important.
+
+Shortcut - Order list --> ol>li*3
+                        
+E.g. -
+<h2>Ordered List</h2>
+      <ol>
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
+      </ol>
+	  
+	  
+Order list attribute - type=""
+
+Suggestion - Ctrl+space
+
+E.g. -
+<h2>Ordered List</h2>
+      <ol type="A">
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
+      </ol>
+	  
+
+Nested list - 
+E.g. -
+<h2>Unordered List</h2>
+      <ul>
+            <li>
+                  1
+                  <ol>
+                        <li>H.1</li>
+                        <li>H.2</li>
+                  </ol>
+            </li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+      </ul>
+
+
+Data list - Not use highly
+dt - data list
+dt - data topic
+dd - data desc
+
+E.g. -
+<h2>Data List </h2>
+      <dl>
+            <dt>Ice Tea</dt>
+            <dd>Lemon Ice Tea</dd>
+            <dt>Hot Tea</dt>
+            <dd>Hot Lemon Tea</dd>
+      </dl>
+	  
+
+Block level element & Inline element -
+
+Q. - How to identify block level element & inline element ?
+=>
+
+E.g. -
+<h3>Test 1</h3>
+      <p>Test 2</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat,<span>test 3 </span> aspernatur?</p>
+      
+	  
+Shortcut - Inspect element - hover 
+   
+   Block level element - test 1 --> any those element occupy space or whole row occupy this is row element. i.e. - h1,h2,h3... are block level element
+   Block level element - test 2 --> paragraph also block level element
+   
+   Inline element --> test 3 --> not occupy whole row i.e. - span is inline element
+   
+
+search --> block and inline elements mdn html 
+---------------------
+DOCUMENTATION
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code
+---------------------
+
