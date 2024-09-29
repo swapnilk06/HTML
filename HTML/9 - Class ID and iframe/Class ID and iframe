@@ -1,0 +1,227 @@
+For select element --> use classes or id's
+
+class - use for element select.
+
+Q. - Why class used?
+=>
+   - select element & after select it, wait it in memory for referance.
+	 - after remove form page, we bring back it.
+	 - these is main reasons to target element in website.
+
+*NOTE :-
+- we also write class in css style or target --> E.g. - .red
+- target of class or work is not add styling --> it is usecase.
+- its main work of class is after select & target.
+
+
+E.g. -
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <style>
+            .red{
+
+                  background-color: coral;
+            }
+      </style>
+</head>
+<body>
+      <p class="red">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, odit earum! Enim iure, ut assumenda ducimus voluptatibus ea voluptates accusamus?</p>
+      
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dolor animi nobis molestiae delectus omnis reprehenderit deleniti, incidunt voluptatem dignissimos.</p>
+
+      <h1 class="red">Test 1</h1>
+      <h3>Test 2</h3>
+
+
+</body>
+</html>
+
+
+
+- Problem came with replace place of class (.) with id (#)
+- id used whole page only 1 time, but classes are use multiple time.
+
+E.g. -
+
+<style>
+            .red{
+
+                  background-color: coral;
+            }
+            #green{
+                  background-color: darkgreen;
+            }
+</style>
+</head>
+<body>
+      <p class="red">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, odit earum! Enim iure, ut assumenda ducimus voluptatibus ea voluptates accusamus?</p>
+      
+      <p id="green">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dolor animi nobis molestiae delectus omnis reprehenderit deleniti, incidunt voluptatem dignissimos.</p>
+
+      <h1 class="red">Test 1</h1>
+      <h3>Test 2</h3>
+
+
+Q. - What is difference, benefits between class & id or impact of id over class?
+=>
+  - id mostly use in javascript 
+  - developer make convention to get reliability, for target any unique element that give unique id.
+  - we require more ids then, we create new ids.
+  - but all pepole view id concept through only CSS part then, this funda have fail.
+  - current morden frameworks not produce ids, mostly produce classes.
+  - & classes produce highly with uniqueness. 
+  
+Using React & angular unique id & class are generated & attach.
+  - it use for framework target particular element its recall from memory & info about referece or track.
+  
+  
+Basic HTML & CSS write rule follow - id use only 1 time & use in single time.
+
+*NOTE :- Classes or Id's are almost similar
+       - it use for target element
+	     - best practice is 1 page used 1 id & classes are multiples.
+	   
+	   
+Iframe - 
+
+search --> iframe tag in html mdn
+---------------------
+DOCUMENTATION
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe
+---------------------
+
+The <iframe> HTML element represents a nested browsing context, embedding another HTML page into the current one.
+
+*NOTE :- Get a security issue using with iframe.
+
+E.g. -
+
+<table>
+            <tr>
+                  <th>Country</th>
+                  <td>India</td>
+                  <td>Japan</td>
+            </tr>
+            <tr>
+                  <th>CODE</th>
+                  <td>IN</td>
+                  <td>JP</td>
+                  <td>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/W43v7ePnjAA?si=scKUxA4d4vnpVoZ7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  </td>
+            </tr>
+</table>
+	  
+	  
+-----------  
+Assignment - create table with table top heading title or video (emmbed)
+
+left side column - table titles & right side emmbedded URLs.
+
+
+E.g. -
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <style>
+            .red{
+
+                  background-color: coral;
+            }
+            #green{
+                  background-color: darkgreen;
+            }
+
+
+            table {
+                  width: 100%;
+                  border-collapse: collapse;
+                  text-align: center;
+            }
+
+            td, th {
+                  border: 1px solid black;
+                  padding: 10px;
+            }
+
+            tr:nth-child(even) {
+                  background-color: #c9c9c9;
+            }
+
+            td {
+                  text-align: center;
+            }
+
+      </style>
+</head>
+<body>
+      <p class="red">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, odit earum! Enim iure, ut assumenda ducimus voluptatibus ea voluptates accusamus?</p>
+      
+      <p id="green">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dolor animi nobis molestiae delectus omnis reprehenderit deleniti, incidunt voluptatem dignissimos.</p>
+
+      <h1 class="red">Test 1</h1>
+      <h3>Test 2</h3>
+
+      <table>
+            <tr>
+                  <th>Country</th>
+                  <td>India</td>
+                  <td>Japan</td>
+            </tr>
+            <tr>
+                  <th>CODE</th>
+                  <td>IN</td>
+                  <td>JP</td>
+                  <td>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/W43v7ePnjAA?si=scKUxA4d4vnpVoZ7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  </td>
+            </tr>
+      </table>
+
+      <br />
+      <br />
+      <hr />
+      <br />
+
+      <h3>Assignment - create table with table top heading title & video (emmbed)</h3>
+      <p>left side column - table titles & right side emmbedded URLs.<p/>
+
+      <table style="width: 100%;
+            border-collapse: collapse;
+            text-align: center;">
+            <tr>
+                  <th>Title</th>
+                  <th>Video</th>
+            </tr>
+            <tr>
+                  <td>Masterplan to win your next Hackathon</td>
+                  <td>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/0IXQDsdCWpE?si=c6wN27uuzHwWPKY-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  </td>
+            </tr>
+            <tr>
+                  <td>Most affordable web dev course launch</td>
+                  <td>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/KZ31wDjYleI?si=Y9EkFb-OiBxCq3OJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  </td>
+            </tr>
+            <tr>
+                  <td>How to be a 10x Learner</td>
+                  <td>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/jt5bqO_r2DQ?si=_uRF5ZK-4PGjZOZe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  </td>
+            </tr>
+      </table>
+
+</body>
+</html>
+
