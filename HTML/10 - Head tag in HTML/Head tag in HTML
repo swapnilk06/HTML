@@ -1,0 +1,163 @@
+Head section ==> Metadata section 
+
+Q. - What's Matadata?
+=> Data about data.
+E.g. - What size of data?
+     - Which date have created your data?
+
+*NOTE :- Head have highly information about meta.
+
+Head metadata -
+1] title - info show in page tab
+E.g. -
+     <title>Title of the page</title>
+	 
+2] style -
+E.g. - 
+    <style>
+            body {
+                  background-color: #414141;
+                  color: #fff;
+            }
+    </style>
+	
+3] link - 
+E.g. -
+    <link rel="stylesheet" href="./head.css">
+
+*NOTE :-
+	   - On sever working create problem when write "head.css"
+	   - We must write "./head.css"
+	   - "."(dot) meaning Current directory & "/"(slash) meaning under current directory head.css file present
+
+- rel tag --> denoted to relationship with which file
+
+4] meta tag - charset (charset is attribute)
+- In meta tag charset is attribute & other have values like.. name
+
+Q. - Why charset(character set) is important?
+=>
+   - Some time in webpages copy emojies & support it --> Its not support in UTF-8.
+   - Officially support we use UTF-16.
+   - HTML is forgiving language (some time emoji worked in UTF-8).
+   - charset have different syntax than other meta tags.
+
+E.g. - 
+    <meta charset="UTF-16">
+	
+5] meta tag - keywords 
+E.g. -
+    <meta name="keywords" content="HTML, web">
+
+*NOTE :- name is value & other have content
+
+6] meta tag - description
+E.g. - same syntax of keywords meta tag
+    <meta name="description" content="this is a web tutorial">
+
+7] meta tag - http-equiv 
+E.g. - 
+    <meta http-equiv="referesh" content="30">
+
+*NOTE :-
+- rarely use of this meta tag in html.
+- because, most of websites are not controlled by HTML in todays web server.
+- this part & other are use through javascript.
+
+8] mata tag - viewport 
+E.g. -
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+*NOTE :-
+- its mata tag define scale of device(tablet, desktop screen) whats intital scale means zoom.
+- this meta tag made for mobile devices
+- without this tag - whole contents are not show.
+- without this tag - content with in horizontal
+- To view whats difference to change range of initial-scale=0.1
+
+
+search --> viewport html mdn
+---------------------
+DOCUMENTATION
+https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag
+---------------------
+
+9] Script -
+- Some javascript are inject before page load because add intractive load when movement add.
+- Script is not add at end only, whats work done by you in basis of HTML page.
+
+E.g. -
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>Title of the page</title>
+      
+      <!-- Comment shortcut ctrl+/ -->
+      <!-- <style>
+            body {
+                  background-color: #414141;
+                  color: #fff;
+            }
+      </style> -->
+
+      <link rel="stylesheet" href="./head.css">
+      <meta charset="UTF-16">
+      <meta name="keywords" content="HTML, web">
+      <meta name="description" content="this is a web tutorial">
+      <!-- r- rarely use of this meta tag in html -->
+      <meta http-equiv="referesh" content="30">
+      
+      <!-- viewport tag use whole content show in mobile devices -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- To view whats difference to change range of initial-scale=0.1 -->
+
+      <script>
+            
+      </script>
+
+</head>
+<body>
+      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum consectetur repellat, culpa ab ea voluptatum tempora sunt blanditiis amet.</h1>
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae facilis qui suscipit, sequi tempora debitis assumenda explicabo! Amet eum minima doloribus nemo quod. Corrupti natus ab quo blanditiis excepturi quaerat. Dignissimos numquam quas eum est ipsa ab fuga corporis, deserunt ut cumque eius ullam corrupti in exercitationem. Distinctio consectetur rerum nisi eaque quod incidunt temporibus illo, et dolor aut voluptates nihil architecto labore dolorum nemo expedita reprehenderit quae fuga excepturi sed ipsa iure. Aut deleniti temporibus voluptates repellendus necessitatibus asperiores debitis quas similique animi eius dignissimos accusantium maiores quos commodi officia doloribus dolores, explicabo aliquid libero ex vitae neque nostrum. Omnis, cumque laudantium praesentium accusantium culpa et, reprehenderit ipsa ipsum dolorum maxime quis dolor laboriosam velit. Enim quos rerum modi alias, expedita cupiditate iure consequuntur incidunt, laudantium quas aliquid libero vel perspiciatis hic, dignissimos dolore distinctio nobis corrupti ducimus earum voluptate. Nesciunt officia dicta quidem id cum, iure dignissimos ex? Eos exercitationem quas, omnis, ipsum delectus assumenda perferendis aspernatur obcaecati voluptatibus necessitatibus explicabo doloribus. Velit dolore, ad est ullam cupiditate culpa officia facere repellat quasi. Beatae nesciunt laborum repudiandae dicta quod alias, animi doloremque temporibus aperiam, ut blanditiis, quasi ipsa. Atque est id neque incidunt mollitia voluptatibus numquam quos reprehenderit?</p>
+
+</body>
+</html>
+
+
+
+-----------  
+Assignment - basetag meta 
+
+- its help to images location 
+
+Q. - What position basetag can use? How to used it & important e.g. of basetag
+
+
+The <base> tag specifies the base URL and/or target for all relative URLs in a document.
+
+The <base> tag must have either an href or a target attribute present, or both.
+
+There can only be one single <base> element in a document, and it must be inside the <head> element.
+
+E.g. -
+
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="https://www.w3schools.com/" target="_blank">
+</head>
+<body>
+
+<h1>The base element</h1>
+
+<p><img src="images/stickman.gif" width="24" height="39" alt="Stickman"> - Notice that we have only specified a relative address for the image. Since we have specified a base URL in the head section, the browser will look for the image at "https://www.w3schools.com/images/stickman.gif".</p>
+
+<p><a href="tags/tag_base.asp">HTML base tag</a> - Notice that the link opens in a new window, even if it has no target="_blank" attribute. This is because the target attribute of the base element is set to "_blank".</p>
+
+</body>
+</html>
+
+- Notice that the link opens in a new window, even if it has no target="_blank" attribute. This is because the target attribute of the base element is set to "_blank".
+  
