@@ -1,0 +1,40 @@
+
+code tag - 
+- Used for write different programming languages code in code tag.
+E.g. - Code tag use in blog section
+
+kbd tag -
+- Prefer to gives linux command.
+
+
+NOTE :- Suggest to search tag in mdn as when we required.
+
+Semantics - 
+- Latest HTML semantic guide we directly write header without div tag
+E.g. - 
+    <!-- Before latest semantics guide -->
+
+      <div class="header"></div>
+      <div class="navbar"></div>
+      <div class="content"></div>
+      <div class="footer"></div>
+
+      <!-- After latest semantics guide -->
+
+      <header></header>
+      <nav></nav>
+      <section></section>
+      <article></article>
+      <aside></aside>
+      <footer></footer>
+	  
+	
+- All above sematics & before are also same work & same importance.
+- Its only help to target easily in CSS.
+
+
+search --> html mordern semantics mdn
+---------------------
+DOCUMENTATION
+https://developer.mozilla.org/en-US/docs/Glossary/Semantics
+---------------------
