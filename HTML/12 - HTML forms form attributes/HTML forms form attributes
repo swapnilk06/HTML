@@ -1,0 +1,101 @@
+
+HTML Form -
+- Form is most IMP & powerful in HTML without of HTML ingnore.
+- Data send to server using Form - Get Input from user & ready to send in server.
+
+Q. - How to forms ?
+=>
+
+Shortcut - form + tab
+
+E.g. Form element
+    <form action="">
+            
+      </form>
+
+*NOTE :- All over form info like name, phono, email.. etc. make bundle of it & send to backend server. 
+
+
+action - url
+
+method -
+2 types of form we can denote through methods -
+1] get 
+    - data visible in website URL.
+    - all information go in clear text format.
+	
+2] post 
+    - all data you can submit in the server we perfer post method
+    - in post method data can send in encrypt mode.
+
+input elements -
+
+Shortcut - input:text
+E.g. -
+     <input type="text" name="" id="">
+	 
+input element attribute - placeholder
+E.g. -
+     <input type="text" placeholder="first name" id="">
+	 
+
+*NOTE :- In screen readers, google search engine not only use placeholders
+       - we use good practice is we use label tag with every input.
+	   
+label tag -
+
+- With every input we use label tag
+- Screen reader also best way to known whats info in below.
+
+*NOTE :- Also known through this info through placeholders but, screen reader can't read placeholders.
+
+for tag -
+
+- for tag shows association between with which inputs?
+- highlight input field i.e. its denotes which input for which input. 
+
+
+E.g. - 
+	<label for="fname">First Name</label>
+            <input type="text" placeholder="first name" id="fname">
+
+
+
+E.g.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Forms one</title>
+      <style>
+      body{
+            background-color: #414141;
+            color: #ffffff;
+            
+      }</style>
+</head>
+<body>
+      <h1>Forms in HTML</h1>
+      <form action="" method="GET" accept-charset="utf-8" autocomplete="" enctype="" >
+            <label for="fname">First Name</label>
+            <input type="text" placeholder="first name" id="fname">
+
+            <label for="lname">Last Name</label>
+            <input type="text" placeholder="last name" id="lname">
+
+            <button type="submit">Pay</button>
+      </form>
+</body>
+</html>
+
+
+
+
+search --> mdn html form attributes
+---------------------
+DOCUMENTATION
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
+---------------------
+
