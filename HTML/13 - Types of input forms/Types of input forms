@@ -1,0 +1,42 @@
+Input elements - attributes, properties, etc..
+- 22 to 23 input elements in HTML.
+
+reset -
+Shortcut - input:reset
+
+E.g. - default value show using reset
+	<label for="fname">First Name</label>
+            <input type="text" placeholder="first name" value="swapnil" id="fname">
+            <input type="reset" value="reset">
+            <button type="submit">Submit</button>
+			
+multiple values in select -
+E.g. -
+	<select name="editors" id="" multiple>
+                  <option value="vscode">vscode</option>
+                  <option value="sublime">sublime</option>
+  </select>
+	
+	
+Rare use of datalist in HTML -
+- very complex form element
+- all same that the select.
+- very confusing.. not used anyone.
+
+E.g. -
+
+<input list="editors" name="editors">
+            <datalist id="editors">
+                  <option value="vscode">vscode</option>
+                  <option value="sublime">sublime</option>
+            </datalist>
+			
+
+
+search --> mdn form input html
+---------------------
+DOCUMENTATION
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
+---------------------
+
+*NOTE :- Form is main work are to take info from user from through which different ways or type of input
