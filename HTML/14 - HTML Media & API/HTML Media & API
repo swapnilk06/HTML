@@ -1,0 +1,35 @@
+Integrate Videos & Audios in website -
+
+- Youtube & vimeo videos are in under iframe.
+
+Difference in video tag & iframe -
+Video tag -
+	- When we use video tag - Videos input in same server of HTML file.
+	
+
+iframe -  
+	- When we use iframe - Your website through 3rd part website open window for content serve.
+	- you give only iframe or window (Server load on youtube or vimeo website) for view video.
+	
+	
+E.g. - Video tag
+
+<video src=""></video>
+
+OR
+
+<video>    </video>
+
+
+Root directory problem -
+*NOTE :- Live server only work same folder(same directory) videos location poi ting.
+       - API in HTML (geolocation API, Drag & drop API.. etc) are not give you to access of storage. 
+       - It only work through Javascript (Accessing browser property only through Javascript)
+
+
+*NOTE :- Myth buster in HTML whats are possible or not?
+search --> mdn html canvas
+---------------------
+DOCUMENTATION
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas
+---------------------
