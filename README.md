@@ -69,8 +69,11 @@ Example:
 
 
 ### Grouping <br>
-- div>(header>ul>li*2>a)+footer>p - Inserts a <div> tag with a <header> tag inside it, a <ul> tag inside it, and 2 <li> tags inside the <ul> tag. Then it inserts an <a> tag inside each <li> tag. Finally it inserts a <footer> tag and a <p> tag inside it.
-
+```
+- div>(header>ul>li*2>a)+footer>p
+- Inserts a <div> tag with a <header> tag inside it, a <ul> tag inside it, and 2 <li> tags inside the <ul> tag.
+- Then it inserts an <a> tag inside each <li> tag. Finally it inserts a <footer> tag and a <p> tag inside it.
+```
 
 ### CSS shortcuts <br> 
 - style - Inserts a <style> tag
