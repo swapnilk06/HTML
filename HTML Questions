@@ -30,3 +30,74 @@ Basic HTML
 HTML Structure and Semantics -
 ----------
 
+4. Explain the basic structure of an HTML document.
+=>
+HTML
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Web Page</title>
+</head>
+<body>
+  </body>
+</html>
+
+- <!DOCTYPE html>: This declaration specifies the document type as HTML5.
+- <html>:</html>: This is the root element of an HTML document.
+- <head>:</head>: This section contains metadata about the webpage, such as the title.
+- <body>:</body>: This section contains the visible content of the webpage.
+
+---------
+
+5. What is the importance of semantic HTML?
+=>
+- Semantic HTML uses elements that accurately describe their content, making the webpage more understandable for both humans and search engines.
+- It improves accessibility for users with disabilities and helps with search engine optimization (SEO).
+
+----------
+HTML Styling and Formatting -
+----------
+
+6. How can you style HTML elements using CSS?
+=> 
+- You can use CSS (Cascading Style Sheets) to apply styles to HTML elements. CSS rules are typically placed in a separate .css file or within the <head> section of the HTML document.
+
+---------
+
+7. Explain the concept of inline, block, and inline-block elements.
+
+- Inline elements: These elements do not start on a new line and do not allow other elements to wrap around them. Examples include <span>, <em>, and <a>.
+- Block elements: These elements start on a new line and allow other elements to wrap around them. Examples include <p>, <h1>, and <div>.
+- Inline-block elements: These elements combine the characteristics of inline and block elements. They do not start on a new line but allow other elements to wrap around them. Examples include <img> and <input>.
+
+----------
+Advanced HTML Topics -
+----------
+
+8. What is the purpose of the <iframe> element?
+=>
+- The <iframe> element is used to embed a webpage within another webpage. This allows you to display content from another website on your page.
+
+---------
+
+9. Explain the difference between HTML5 and previous versions of HTML.
+=>
+HTML5 introduced several new features and improvements, such as:
+ - New semantic elements: <header>, <nav>, <main>, <article>, <section>, <aside>, <footer>, <figure>, and <figcaption>.
+ - Canvas and SVG: For creating graphics and animations.
+ - Video and audio elements: For embedding multimedia content.
+ - Local storage: For storing data locally on the user's device.
+ - Web workers: For running JavaScript code in the background.
+
+---------
+
+10. What are HTML forms used for, and what are some common form elements?
+=>
+HTML forms are used to collect user input. Common form elements include:
+ - <input>: Can be used for various types of input, such as text, checkboxes, radio buttons, and file uploads.
+ - <select>: Creates a dropdown list.
+ - <textarea>: Creates a multi-line text input.
+ - <button>: Creates a button for submitting or resetting the form.
+
+
