@@ -1,0 +1,32 @@
+-----------
+Basic HTML
+-----------
+
+1. What is HTML, and what is its purpose?
+=>
+- HTML (Hyper Text Markup Language) is the standard language for creating web pages. It defines the structure and content of a web page.
+- Its purpose is to provide a framework for organizing text, images, videos, and other elements on a webpage.
+
+-----------
+
+2. Explain the difference between elements, tags, and attributes in HTML.
+=>
+- Elements: These are the building blocks of an HTML document. They consist of opening and closing tags, and they can contain content or other elements.
+- Tags: These are used to define elements. They are enclosed in angle brackets (<>). For example, <p> and </p> define a paragraph.
+- Attributes: These are used to provide additional information about elements. They are placed within the opening tag and have a name-value pair format. For example, <img src="image.jpg"> uses the src attribute to specify the image source.
+
+----------
+
+3. What are the different types of HTML elements?
+=>
+- Structural Elements: These define the overall structure of a webpage, such as <html>, <head>, and <body>.
+- Text Elements: These are used to represent text, such as <p>, <h1>, <h2>, etc.
+- List Elements: These are used to create lists, such as <ul> (unordered list) and <ol> (ordered list).
+- Table Elements: These are used to create tables, such as <table>, <tr>, and <td>.
+- Form Elements: These are used to create forms for user input, such as <form>, <input>, <select>, and <textarea>.
+- Image and Multimedia Elements: These are used to embed images, audio, and video content, such as <img>, <audio>, and <video>.
+
+----------
+HTML Structure and Semantics -
+----------
+
